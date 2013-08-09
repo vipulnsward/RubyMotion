@@ -28,6 +28,7 @@ require 'motion/project/builder'
 require 'motion/project/vendor'
 require 'motion/project/template'
 require 'motion/project/plist'
+require 'motion/project/run_control'
 
 if Motion::Project::App.template == nil
   warn "require 'motion/project' is deprecated, please require 'motion/project/template/ios' instead"

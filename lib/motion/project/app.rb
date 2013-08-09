@@ -73,6 +73,7 @@ module Motion; module Project
       end
 
       def build(platform, opts={})
+        Motion::Project::RunControl.new
         builder.build(config, platform, opts)
       end
 
